@@ -1,0 +1,52 @@
+{
+  "properties": [
+    {
+      "id": "#00000000001",
+      "price": 650000,
+      "deal": "rental",
+      "duration": "1 year",
+      "size": "3 bedroom",
+      "image": "4.jpg",
+      "utilities": "4 bathrooms",
+      "watching": 0,
+      "favorite": true,
+      "location": "Farm Rd. Eneka, PH"
+    },
+    {
+      "id": "#00000000002",
+      "price": 650000,
+      "deal": "rental",
+      "duration": "1 year",
+      "size": "3 bedroom",
+      "image": "2.jpg",
+      "utilities": "4 bathrooms",
+      "watching": 0,
+      "favorite": true,
+      "location": "Farm Rd. Eneka, PH"
+    },
+    {
+      "id": "#00000000003",
+      "price": 650000,
+      "deal": "rental",
+      "duration": "1 year",
+      "size": "3 bedroom",
+      "image": "3.jpg",
+      "utilities": "4 bathrooms",
+      "watching": 0,
+      "favorite": true,
+      "location": "Farm Rd. Eneka, PH"
+    },
+    {
+      "id": "#00000000004",
+      "price": 650000,
+      "deal": "rental",
+      "duration": "1 year",
+      "size": "3 bedroom",
+      "image": "4.jpg",
+      "utilities": "4 bathrooms",
+      "watching": 0,
+      "favorite": true,
+      "location": "Farm Rd. Eneka, PH"
+    }
+  ]
+}

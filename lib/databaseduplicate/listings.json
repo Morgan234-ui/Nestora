@@ -1,0 +1,46 @@
+{
+  "user": [
+    {
+      "firstName": "romelo",
+      "middleName": "lukaku",
+      "lastname": "owen",
+      "email": "romelolukakuowen@gmial.com",
+      "password": "2343413"
+    },
+    {
+      "firstName": "morgan",
+      "middleName": "edache",
+      "lastname": "raven",
+      "email": "morgan10@gmail.com",
+      "password": "34234233"
+    },
+    {
+      "firstName": "elanga",
+      "middleName": "lukaku",
+      "lastname": "raven",
+      "email": "kingchinweikpe@gmail.com",
+      "password": "77652372378932"
+    },
+    {
+      "firstName": "morgan",
+      "middleName": "kent",
+      "lastname": "edwin",
+      "email": "kingchinweikpe@gmail.com",
+      "password": "3537547"
+    },
+    {
+      "firstName": "richard",
+      "middleName": "milly",
+      "lastname": "oyakirah",
+      "email": "richymilly@gmial.com",
+      "password": "1234253645"
+    },
+    {
+      "firstName": "richard",
+      "MiddleName": "miller",
+      "lastname": "oyakirah",
+      "email": "richardmiller@gmial.com",
+      "password": "10934874895"
+    }
+  ]
+}
