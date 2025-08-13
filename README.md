@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Christian Kingdavid
 
+<code>I am a Full stack web dev</code>
+
 First, run the development server:
 
 ```bash
