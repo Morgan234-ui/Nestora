@@ -5,8 +5,32 @@ import Hquery from '@/components/Utilities/Search/Filter/Hquery'
 import HeaderQuery from '@/components/Utilities/Search/HeaderQuery'
 import React from 'react'
 
-const page = () => {
+// protecting the slug page, we create a function
+const getUser = async ({slug}) => {
+    try {
+        const users = await fetch(`${process.env.NEXTAUTH_URL}/api/auth/user`, {
+            method: "POST",
+            body: JSON.stringify(slug)
+        })
+
+        return users
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+
+
+const page = async ({params}) => {
+    const paramsData = await params
+    console.log(paramsData)
+    const slug = paramsData.slug
+    const users = await getUser({slug})
     return (
+        users.status == 404 ?
+        <React.Fragment>
+            error 404
+        </React.Fragment>:
         <React.Fragment>
             <HeaderRest />
             <main>

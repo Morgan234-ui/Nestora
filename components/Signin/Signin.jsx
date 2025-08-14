@@ -41,6 +41,9 @@ const Signin = () => {
             <button onClick={() => signIn('google')}>
                 sign in with google
                 </button>
+                 <button onClick={logon}>
+                sign in 
+                </button>
         </React.Fragment>
   )
 }

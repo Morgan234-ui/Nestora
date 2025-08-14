@@ -13,7 +13,6 @@ const layout = ({children}) => {
             <html>
                 <body>
                 <Authprovider>
-
                 {children}
                 </Authprovider>
                
