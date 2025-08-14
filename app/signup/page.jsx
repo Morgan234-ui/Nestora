@@ -1,4 +1,4 @@
-import Signup from '@/components/Pages/Signup/Signdown'
+import Signup from '@/components/Pages/Signup/Signupper'
 import React from 'react'
 
 const page = () => {

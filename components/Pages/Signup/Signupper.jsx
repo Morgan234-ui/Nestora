@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 
-const Signup = () => {
+const Signupper = () => {
     const [user, setUser] = useState({
         name: '', username: '', email: '', password: ''
     })
@@ -38,7 +38,7 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Signupper
 
 
 
