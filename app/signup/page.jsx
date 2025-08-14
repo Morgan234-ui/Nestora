@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Signup from '@/components/Pages/signup/signup'
+import Signup from '@/components/Pages/Signup/Signdown'
 const page = () => {
   return (
        <React.Fragment>
