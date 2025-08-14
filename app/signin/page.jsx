@@ -1,5 +1,5 @@
 import HeaderRest from '@/components/Layout/HeaderRest'
-import Signin from '@/components/Signin/signin'
+import Signin from '@/components/Signin/Signout'
 import React from 'react'
 
 const page = () => {
