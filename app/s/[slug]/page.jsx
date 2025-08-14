@@ -13,7 +13,7 @@ const getUser = async ({slug}) => {
             body: JSON.stringify(slug)
         })
 
-        return users
+        return {Response,users}
     } catch (error) {
         console.log(error)
     }
@@ -25,9 +25,9 @@ const page = async ({params}) => {
     const paramsData = await params
     console.log(paramsData)
     const slug = paramsData.slug
-    const users = await getUser({slug})
+    const user = await getUser({slug})
     return (
-        users.status == 404 ?
+        user.users.status == 404 ?
         <React.Fragment>
             error 404
         </React.Fragment>:
